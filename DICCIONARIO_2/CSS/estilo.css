@@ -1,0 +1,136 @@
+body{
+    font-family: Raleway;
+
+}
+
+.elemento{
+    box-shadow: 0 4px 8px #8C4966;
+    float: left;
+    width: 28%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color:  #d8f8e1;
+    font-size: large;
+}
+
+.letra{
+    /*background-color: #dfcae1;*/
+    background-image: url("/IMG/fondo\ 01.jpg");
+    color: black;
+    border: 3px solid #503459;
+    float: left;
+    width: 100%;
+    font-size: large;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letra :hover{
+    background-color: rgb(137, 164, 182);
+    color: white;
+}
+
+.autor{
+    /*border: 2px solid skyblue;*/
+
+    background-color: #FBE4FF;
+    text-align: center;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.menu{
+    overflow: hidden;
+    position: fixed;
+    font-family: Helvetica;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #C999AF;
+    padding: 5px;
+    font-size: x-large;
+    z-index: 2;
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size:  large;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #9BFBE1;
+    font-weight: bold;
+    align-content: center;
+    transition-duration: 0.5s;
+}
+
+.menu a:hover{
+    background: #dfcae1;
+    color: black;
+    border: 6px solid #572364;
+    font-weight: 900;
+}
+
+.contenido{
+    border: 2px ;
+    justify-content: center;
+    font-size: small;
+}
+
+.foto{
+    width: 50%;
+    
+    display: block;
+    margin: 0px auto;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.foto_2 {
+    width: 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.autorB :hover{
+    background-color: #ffe5f0;
+    color: purple;
+}
+
+.buscador {
+    margin-left: 80%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.busacdor img {
+    vertical-align: middle;
+}
+
+.buscador input {
+    border: 0px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Arial Narrow';
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+}
+.buscador input:hover {
+    border: 2px solid black;
+}
+
+.resaltado {
+    background-color: #8f7193;
+    color: wheat;
+}
